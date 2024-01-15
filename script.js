@@ -1,5 +1,3 @@
-
-
 const blObjects = {
     "🍒🪄✨": "Cherry Magic",
     "👨🏻‍🍳🍳👨🏻‍⚕️": "Cooking Crush",
@@ -32,13 +30,12 @@ const blObjects = {
     "❤️🤒💊": "Love Sick",
     "🙅‍♂️🏳️‍🌈👊💢🧊": "Tharntype",
     "🧜🏻‍♀️🍸❤️‍🔥🔫": "Kinnporsche",
-    "👨🏻‍🏫🥀👊💥": "I'll knock you",
+    "👨🏻‍🏫🥀👊💥": "I will knock you",
     "🐟☁️🦷🥼": "Fish Upon the Sky",
-    "👻🏳️‍🌈🪦": "He's Coming to Me",
+    "👻🏳️‍🌈🪦": "He is Coming to Me",
     "👨🏻‍🏫⚽💯🍃": "Dangerous Romance",
     "🌧️☔👂🏼": "La Pluie",
     "😵🕵🏽🛌🏼🧑🏽‍⚕️": "Manner of Death",
-    
     
 };
 
