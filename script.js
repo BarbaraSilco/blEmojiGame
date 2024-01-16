@@ -1,3 +1,4 @@
+
 const blObjects = {
     "🍒🪄✨": "Cherry Magic",
     "👨🏻‍🍳🍳👨🏻‍⚕️": "Cooking Crush",
@@ -36,7 +37,13 @@ const blObjects = {
     "👨🏻‍🏫⚽💯🍃": "Dangerous Romance",
     "🌧️☔👂🏼": "La Pluie",
     "😵🕵🏽🛌🏼🧑🏽‍⚕️": "Manner of Death",
-    
+    "👨🏻‍🔧🔧⚙️❤️‍🩹": "Love Mechanics",
+    "🍃🪻🏡🕰️": "I Feel you Linger in the Air",
+    "💔➰❤️‍🩹🪢": "Until we Meet Again",
+    "🎥💗🎬": "Theory of Love",
+    "🍰🍮🥺🙏🏻": "Bake me Please",
+
+
 };
 
 const container = document.querySelector(".container");
@@ -110,7 +117,7 @@ else {
     const init = () => {
       winCount = 0;
       lossCount = 5;
-      document.getElementById("chanceCount").innerHTML = `<span>Tries Left:</span>${lossCount}`;
+      document.getElementById("chanceCount").innerHTML = `<span>Tentativas:</span>${lossCount}`;
       randomHint = null;
       randomWord = "";
       userInputSection.innerHTML = "";
@@ -138,7 +145,7 @@ else {
               winCount += 1;
               if(winCount == charArray.length){
                 setTimeout(() => {
-                  result.innerHTML = "You Win";
+                  result.innerHTML = "Parabéns!";
                 blocker();
                 }, 3000);
               }
@@ -149,7 +156,7 @@ else {
           lossCount -= 1;
           document.getElementById(
             "chanceCount"
-            ).innerHTML = `<span>Tries Left:</span> ${lossCount}`;
+            ).innerHTML = `<span>Tentativas: </span> ${lossCount}`;
             button.classList.add("used");
             if (lossCount == 0) {
               resultText.innerHTML = "Game Over";
